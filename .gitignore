@@ -13,6 +13,10 @@
 /.next/
 /out/
 
+# database
+/database/migrations
+
+
 # production
 /build
 
@@ -26,7 +30,7 @@ yarn-debug.log*
 yarn-error.log*
 
 # local env files
-.env*.local
+.env
 
 # vercel
 .vercel
