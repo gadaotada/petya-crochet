@@ -10,5 +10,5 @@ export default async function TemplateControl({ children }: { children: React.Re
 		return redirect("/control/admin");
 	}
 
-    return <div>{children}</div>
+    return <div className="flex min-h-screen flex-col items-center justify-between p-24">{children}</div>
   }

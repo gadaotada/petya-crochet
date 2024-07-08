@@ -1,3 +1,6 @@
 {
-    "btn_txt": "Logg in"
+    "btn_txt": "Logg in",
+    "profile_placeholder": "Profile",
+    "password_placeholder": "Password",
+    "h1_txt": "Enter"
 }
