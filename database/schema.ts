@@ -3,7 +3,7 @@ import { index, mysqlTable, datetime, varchar, mysqlEnum, text, int } from 'driz
 
 export const userTable = mysqlTable('users', {
     id: varchar("id", { length: 255 }).primaryKey(),
-    profile: varchar('profile', { length: 256 }).notNull(),
+    profile: varchar('profile', { length: 256 }).notNull().unique(),
     password: text('password').notNull(),
     displayName: varchar('displayName', { length: 256 }),
     role: mysqlEnum('role', ['Admin', 'User']).notNull().default('User')
